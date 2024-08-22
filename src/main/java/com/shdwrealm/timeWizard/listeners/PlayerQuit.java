@@ -17,7 +17,7 @@ public class PlayerQuit implements Listener {
         this.plugin = main;
     }
 
-    public onPlayerQuit(PlayerQuitEvent e) {
+    public void onPlayerQuit(PlayerQuitEvent e) {
         int playerCount = Bukkit.getServer().getOnlinePlayers().size();
 
         if (playerCount == 0) {
