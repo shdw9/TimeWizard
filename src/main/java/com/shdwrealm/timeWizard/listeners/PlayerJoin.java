@@ -3,6 +3,7 @@ package com.shdwrealm.timeWizard.listeners;
 import com.shdwrealm.timeWizard.TimeWizard;
 
 import org.bukkit.Bukkit;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
@@ -16,6 +17,7 @@ public class PlayerJoin implements Listener {
         this.plugin = main;
     }
 
+    @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         // enable daylight cycle
         World world = Bukkit.getServer().getWorld("world");
