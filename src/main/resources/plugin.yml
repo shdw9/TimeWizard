@@ -1,0 +1,7 @@
+name: TimeWizard
+version: '1.0-SNAPSHOT'
+main: com.shdwrealm.timeWizard.TimeWizard
+api-version: '1.20'
+load: STARTUP
+author: shdw9
+description: Pause time when the last player leaves, resume when a player joins
